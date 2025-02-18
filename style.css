@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  justify-content: center;
+  background-color: #f5a177;
+}
+.container {
+  text-align: center;
+}
+p {
+  font-size: 21px;
+  color: #4a1206;
+  font-weight: bold;
+}
+.comic-character {
+  width: 220px;
+  height: auto;
+}
+.buttons {
+  margin-top: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+#yes-btn {
+  background-color: #d54425;
+  color: white;
+  border: none;
+}
+#no-btn {
+  background-color: #f0753b;
+  color: white;
+  border: none;
+}
+#response-text {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+@keyframes jelly {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.2);
+    /* 放大1.2倍 */
+  }
+  50% {
+    transform: scale(0.9);
+    /* 缩小到0.9倍 */
+  }
+  100% {
+    transform: scale(1);
+    /* 恢复原始大小 */
+  }
+}
+#yes-btn {
+  transition: transform 0.3s ease;
+  /* 平滑过渡 */
+}
