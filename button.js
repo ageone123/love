@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 处理“可以”按钮的点击事件  
     yesBtn.addEventListener('click', function () {
-        responseText.innerText = '嘻嘻，!!!喜欢你,我的张旺洋宝宝';
+        responseText.innerText = '嘻嘻，!!!喜欢你,我的小倩宝宝';
         noBtn.style.display = 'none'; // 隐藏“不要”按钮  
         comicImage.src = images[5]; // 显示第六张漫画人物  
         yesBtn.style.display = 'none'; // 隐藏“可以”按钮  
