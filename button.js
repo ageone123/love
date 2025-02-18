@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 图片数组，包含所有的漫画人物路径  
     const images = [
-        'images/1.png',
-        'images/2.png',
-        'images/3.png',
-        'images/4.png',
-        'images/5.png',
-        'images/6.png'
+        '1.png',
+        '2.png',
+        '3.png',
+        '4.png',
+        '5.png',
+        '6.png'
     ];
 
     // 处理“可以”按钮的点击事件  
