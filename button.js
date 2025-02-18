@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         comicImage.src = images[5]; // 显示第六张漫画人物  
         yesBtn.style.display = 'none'; // 隐藏“可以”按钮  
         loveText.style.display = 'none'; // 隐藏提问文本  
+        clickCount++;  // 增加点击次数
     });
 
     // 处理“不要”按钮的点击事件  
